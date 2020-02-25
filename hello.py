@@ -3,4 +3,4 @@ strn = '234'
 
 strn = strn[:1]+'0'+strn[1]
 for i in range(10):
-    print("hello")
+    print("hello world")
