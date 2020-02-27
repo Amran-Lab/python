@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.8
 from map import map_class
-from random import randint
+3,
 
 new_map = map_class()
 

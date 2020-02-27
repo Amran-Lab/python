@@ -7,6 +7,10 @@ class map_class:
         for i in row:
             for j in col:
                 self.board.append((i,j))
+    def ship_destroyed(self,ship_lst):
+        
+        if len(ship_lst) == 0:
+            print("you have destroyed a ship")
     def shoot(self,hit):
         x = 9
         y = 8
@@ -31,6 +35,13 @@ class map_class:
             print('you hit nothing')
         else:
             print('not on the board')
+        self.ship_destroyed(self.ship_1)
+        self.ship_destroyed(self.ship_2)
+        self.ship_destroyed(self.ship_3)
+        self.ship_destroyed(self.ship_4)
+    
+            
+
             
 
 
